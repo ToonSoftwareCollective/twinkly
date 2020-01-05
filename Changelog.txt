@@ -1,0 +1,6 @@
+1.0.0
+- first functional release:
+  * config screen to enter the Twinkly ip-address or hostname
+  * tile showing a lightbulb with the Twinkly status.
+    lights can be switched on and off via the tile by clivking on the lightbulb
+  * clicking on the tile next to the lightbulb opens the screen with further functionality (timers, demo show)
