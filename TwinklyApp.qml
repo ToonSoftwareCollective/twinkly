@@ -14,7 +14,7 @@ App {
 	property url thumbnailIcon: "qrc:/tsc/DomoticzSystrayIcon.png"
 
 	//Edit these settings:
-	property string hostName: "192.168.2.100"
+	property string hostName
 	//Stop editing here!
 
 	property string switch1Name

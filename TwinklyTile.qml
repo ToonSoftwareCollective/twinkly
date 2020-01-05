@@ -7,7 +7,11 @@ Tile {
 	property bool dimState: screenStateController.dimmedColors
 
 	onClicked: {
-		stage.openFullscreen(app.twinklyScreenUrl);
+		if (app.hostName.length < 3) {
+			stage.openFullscreen(app.twinklyConfigurationScreenUrl);
+		} else {
+			stage.openFullscreen(app.twinklyScreenUrl);
+		}
 	}
 
 	function iconToShow(status) {
@@ -50,10 +54,13 @@ Tile {
 			id: switch1Mouse
 			anchors.fill: parent
 			onClicked: {
-				switchTwinkly();
+				if (app.hostName.length < 3) {
+					stage.openFullscreen(app.twinklyConfigurationScreenUrl);
+				} else {
+					switchTwinkly();
+				}
 			}
 		}
-
 	}
 
 	Text {
