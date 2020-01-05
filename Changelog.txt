@@ -1,4 +1,4 @@
-1.0.0
+1.0.1
 - first functional release:
   * config screen to enter the Twinkly ip-address or hostname
   * tile showing a lightbulb with the Twinkly status.
