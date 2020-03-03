@@ -1,3 +1,7 @@
+1.0.2
+- first two effects implemented : glow effect and train effect
+- created effects ('movies') can be saved for future use
+
 1.0.1
 - first functional release:
   * config screen to enter the Twinkly ip-address or hostname
